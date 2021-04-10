@@ -2,7 +2,7 @@
 
 The App allows us to create/read/update/delete students details.
 
-Open []() to view the Application. It is deployed on Heroku Free Tier.
+Open [App-Link](https://ui-student-crud.herokuapp.com/) to view the Application. It is deployed on Heroku Free Tier.
 
 ## Available Scripts
 
