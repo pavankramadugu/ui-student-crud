@@ -110,7 +110,7 @@ function App() {
         setErrorMessages([])
       })
       .catch(error => {
-        setErrorMessages(["Update failed! Server error"])
+        setErrorMessages(["Update failed! Server error, Please Retry"])
         setIserror(true)
         resolve()
 
@@ -154,7 +154,7 @@ function App() {
         setIserror(false)
       })
       .catch(error => {
-        setErrorMessages(["Cannot add data. Server error!"])
+        setErrorMessages(["Cannot add data. Server error!, Please Retry"])
         setIserror(true)
         resolve()
       })
@@ -178,7 +178,7 @@ function App() {
         resolve()
       })
       .catch(error => {
-        setErrorMessages(["Delete failed! Server error"])
+        setErrorMessages(["Delete failed! Server error, Please Retry"])
         setIserror(true)
         resolve()
       })
